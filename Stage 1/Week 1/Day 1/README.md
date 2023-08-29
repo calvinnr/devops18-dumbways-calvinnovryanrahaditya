@@ -126,7 +126,8 @@ Search Domains  : google.com
 <img width="1440" alt="Screenshot 2023-08-28 at 19 09 42" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/db97a9ff-e57e-43d6-9f79-4b801e776ad6">
 
 21. Berikut tes koneksi antara VM dengan device saya sendiri dan berhasil
-<img width="1440" alt="Screenshot 2023-08-28 at 19 12 50" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/3f9a42f1-628a-48fd-b305-d7a97903869d">
+<img width="1440" alt="Screenshot 2023-08-29 at 19 26 00" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/c5d27041-769f-4451-8631-8c42842f2211">
+
 
 
 
