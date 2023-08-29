@@ -2,16 +2,16 @@
 
 ## 1. Definisi DevOps
 
-DevOps menggabungkan **pengembangan** (Dev) dan **operasi** (Ops) untuk menyatukan orang, proses, dan teknologi dalam perencanaan, pengembangan, pengiriman, dan operasi aplikasi. DevOps memungkinkan koordinasi dan kolaborasi antara peran yang sebelumnya di-silo seperti pengembangan, operasi TI, rekayasa kualitas, dan keamanan
+DevOps menggabungkan **Pengembangan** (*Dev*) dan **Operasi** (*Ops*) untuk menyatukan orang, proses, dan teknologi dalam perencanaan, pengembangan, pengiriman, dan operasi aplikasi. DevOps memungkinkan koordinasi dan kolaborasi antara peran yang sebelumnya dipisahkan sesuai dengan jenis pekerjaan yang dilakukan seperti pengembangan, operasi TI, rekayasa kualitas, dan keamanan
 
 ## 2. Sebutkan lifecycle DevOps (Continuous...) dan Jelaskan definisi-definisinya!
 
-1. Plan : Proses perencanaan untuk seluruh alur kerja yang dibutuhkan sebelum developers mulai menulis kode program.
-2. Code : Proses ini merupakan tahap dimana developers mulai menulis kode yang dibutuhkan untuk membuat suatu produk.
-3. Build : Aplikasi yang sudah siap untuk masuk ke tahap pengujian, akan langsung di build supaya dapat mengetahui apakah kode tersebut masih terdapat error atau sudah layak masuk ke divisi tester.
-4. Test : Merupakan tahap pengujian fungsional aplikasi secara internal. Jika pada proses tersebut terdapat masalah fungsionalitas, maka akan dilaporkan ke tim developer untuk diperbaiki.
+1. Plan    : Proses perencanaan untuk seluruh alur kerja yang dibutuhkan sebelum developers mulai menulis kode program.
+2. Code    : Proses ini merupakan tahap dimana developers mulai menulis kode yang dibutuhkan untuk membuat suatu produk.
+3. Build   : Aplikasi yang sudah siap untuk masuk ke tahap pengujian, akan langsung di build supaya dapat mengetahui apakah kode tersebut masih terdapat error atau sudah layak masuk ke divisi tester.
+4. Test    : Merupakan tahap pengujian fungsional aplikasi secara internal. Jika pada proses tersebut terdapat masalah fungsionalitas, maka akan dilaporkan ke tim developer untuk diperbaiki.
 5. Release : Setiap perubahan kode yang telah melewati serangkaian pengujian dan dinyatakan lolos, maka developers akan membuat sebuah release versi dari produk tersebut.
-6. Deploy : Release versi pada tahap sebelumnya akan digunakan untuk dijalankan ke server, sehingga dapat digunakan oleh orang lain (publik).
+6. Deploy  : Release versi pada tahap sebelumnya akan digunakan untuk dijalankan ke server, sehingga dapat digunakan oleh orang lain (publik).
 7. Operate : Aplikasi yang sudah selesai dijalankan pada server, maka dapat digunakan secara publik. Dan memastikan bahwa tidak ada masalah ketika di akses baik dari HP ataupun komputer.
 8. Monitor : Tim Operations akan melakukan pemantauan infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
 
@@ -90,7 +90,7 @@ Search Domains  : google.com
 <img width="1440" alt="Screenshot 2023-08-28 at 18 10 15" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/72d1fe7f-6262-4d2e-8ab4-1de27ba31e03">
 
 9. Tahap ini pun saya buat *default* saja, jadi langsung saya klik *Done*
-   <img width="1440" alt="Screenshot 2023-08-28 at 18 10 21" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d1f1f2dd-6bbe-4200-a98f-4e3bd6afee81">
+<img width="1440" alt="Screenshot 2023-08-28 at 18 10 21" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d1f1f2dd-6bbe-4200-a98f-4e3bd6afee81">
 
 10. Disini saya memilih **Continue without updating** karena saya tidak ingin *installer*-nya ter-update.
 <img width="1440" alt="Screenshot 2023-08-28 at 18 10 33" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/55afba32-3330-4864-bdb1-eb440a254bfd">
