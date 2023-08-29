@@ -4,7 +4,7 @@
 
 DevOps menggabungkan **Pengembangan** (*Dev*) dan **Operasi** (*Ops*) untuk menyatukan orang, proses, dan teknologi dalam perencanaan, pengembangan, pengiriman, dan operasi aplikasi. DevOps memungkinkan koordinasi dan kolaborasi antara peran yang sebelumnya dipisahkan sesuai dengan jenis pekerjaan yang dilakukan seperti pengembangan, operasi TI, rekayasa kualitas, dan keamanan
 
-## 2. Sebutkan lifecycle DevOps (Continuous...) dan Jelaskan definisi-definisinya!
+## 2. Sebutkan *lifecycle* DevOps (*Continuous*) dan jelaskan definisi-definisinya!
 
 1. Plan    : Proses perencanaan untuk seluruh alur kerja yang dibutuhkan sebelum developers mulai menulis kode program.
 2. Code    : Proses ini merupakan tahap dimana developers mulai menulis kode yang dibutuhkan untuk membuat suatu produk.
