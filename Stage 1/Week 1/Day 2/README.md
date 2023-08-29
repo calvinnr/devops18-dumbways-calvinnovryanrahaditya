@@ -21,6 +21,20 @@
     * Kurang aman karena dapat dilihat secara online
     * Tidak membutuhkan NAT untuk dapat tersambung ke internet
    
+  * IP Dynamic
+    * IP Dinamis merupakan pemberian IP secara otomatis dalam sebuah jaringan baik itu bersifat IP *public* atau IP *private*. IP ini akan berubah-ubah setiap waktu
+    * Ditetapkan oleh *Server* DHCP
+    * IP Dinamis memiliki sifat dimana ip-nya terus berubah-ubah bergantung dari *lease time*-nya.
+    * Tidak perlu bayar untuk menggunakannya
+    * Penggunaannya sering diterapkan di lingkungan rumahan dan kantor
+ 
+  * IP Static
+    * IP Address Statis merupakan pemberian IP yang tidak akan berubah, harus di konfigurasi manual jika ingin menggunakan IP statis
+    * IP didapatkan dari ISP
+    * IP Statis memiliki sifat dimana ip-nya tidak berubah-ubah karena dikonfigurasi secara *manual*
+    * Penggunaanya tidak gratis dan perlu bayar ke ISP
+    * Sering diterapkan di lingkungan yang lebih luas seperti area bisnis
+   
 ## 2. Buat rancangan sebuah jaringan dengan spesifikasi sebagai berikut!  
 ```ip
 CIDR Block : 192.168.1.xxx/24
