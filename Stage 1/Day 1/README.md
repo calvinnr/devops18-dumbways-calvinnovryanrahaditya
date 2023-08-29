@@ -1,6 +1,12 @@
-# Instalasi Ubuntu 20.04.6 LTS Live Server menggunakan VM UTM
+# Introduction to DevOps
 
-## Tahap Konfigurasi di VM UTM
+## 1. Definisi DevOps
+
+
+
+## 3. Instalasi Ubuntu 20.04.6 LTS Live Server menggunakan VM UTM
+
+### Tahap Konfigurasi di VM UTM
 
 1. Berikut tampilan awal software VM UTM, Lalu pilih **Create a New Virtual Machine**
 <img width="898" alt="Screenshot 2023-08-28 at 17 48 56" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/819e340e-4a6b-48c0-9312-5d17a39917eb"> 
@@ -38,7 +44,7 @@
 12. Setelah semua konfigurasi untuk VM-nya telah selesai, lalu klik logo *Start* untuk memulai instalasi OS-nya
 <img width="898" alt="Screenshot 2023-08-28 at 17 51 43" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/4d8d257c-da42-4378-a5bd-1b8054e27af1">
 
-## Tahap Instalasi OS Ubuntu
+### Tahap Instalasi OS Ubuntu
 
 1. Setelah masuk disini saya memilih **Install Ubuntu Server** lalu klik *Enter*
   <img width="898" alt="Screenshot 2023-08-28 at 17 52 38" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/4d06a852-7066-42fd-85b1-f567ddcea124">
