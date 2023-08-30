@@ -28,14 +28,14 @@ Jika service Nginx sudah ter-install, Kita perlu memverifikasi bahwa service Ngi
 <sup>Sesuaikan dengan IP yang terdaftar di server*</sup>
 <br>
 
-### 1.4 Menjalankan Localtunnel pada service Nginx
+### 1.4 Menjalankan Localtunnel diatas port NodeJS
 <img width="1440" alt="Screenshot 2023-08-30 at 15 30 50" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/a55145b2-cd7b-4594-8fe4-4220272fda15">
 Setelah Nginx dipastikan sudah berjalan dengan baik, Langkah selanjutnya adalah menjalankan Localtunnel-nya dengan menjalankan perintah:
 
 ```node
 lt --port 3000
 ```
-Disini saya mengisi port 3000 karena wayshub-frontend berjalan pada port 3000 lalu saya mendapatkan link:
+Disini saya mengisi port 3000 karena wayshub-frontend (NodeJS) berjalan pada port 3000 lalu saya mendapatkan link:
 
 ```node
 https://cool-planets-nail.loca.lt
@@ -46,7 +46,7 @@ https://cool-planets-nail.loca.lt
 Selanjutnya, kita membuka link yang tertulis di terminal dan akan terbuka tampilan seperti diatas lalu masukan IP Public yang kita miliki pada Endpoint IP setelah itu klik **Click to Submit**
 
 ```node
-https://ipv4.icanhazip.com/)https://ipv4.icanhazip.com/
+https://ipv4.icanhazip.com/
 ```
 <sup>Berikut link untuk mengetahui IP Public lokal device yang digunakan</sup>
 
@@ -54,3 +54,34 @@ https://ipv4.icanhazip.com/)https://ipv4.icanhazip.com/
 ### 1.6 Localtunnel berjalan dengan baik
 <img width="1440" alt="Screenshot 2023-08-30 at 15 44 19" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/5a079737-cdcc-4894-88bf-0d69a6414b77">
 Jika berhasil, maka Localtunnel akan meredirect kita menuju wayshub-frontend. Ini menunjukan bahwa wayshub-frontend sudah dapat diakses oleh publik.
+
+## 2. App python bisa diakses melalui localtunnel
+
+### 2.1 Menjalankan Localtunnel diatas port Python
+<img width="1438" alt="Screenshot 2023-08-30 at 15 51 07" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/91695145-c258-4c24-86b9-38ff2e1d9157">
+Pertama-tama, saya menjalankan Localtunnel-nya dengan menjalankan perintah:
+
+```python
+lt --port 5000
+```
+Disini saya mengisi port 5000 karena Python berjalan pada port 5000 lalu saya mendapatkan link:
+
+```python
+https://fifty-pears-tell.loca.lt
+```
+
+### 2.2 Membuka Localtunnel yang telah berjalan
+<img width="1440" alt="Screenshot 2023-08-30 at 15 55 04" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/36165c59-348d-44db-ac3b-79c0bd114239">
+Selanjutnya, kita membuka link yang tertulis di terminal dan akan terbuka tampilan seperti diatas lalu masukan IP Public yang kita miliki pada Endpoint IP setelah itu klik <b>Click to Submit</b>
+
+```node
+https://ipv4.icanhazip.com/
+```
+<sup>Berikut link untuk mengetahui IP Public lokal device yang digunakan</sup>
+
+
+### 2.3 Localtunnel berjalan dengan baik
+<img width="1440" alt="Screenshot 2023-08-30 at 15 55 58" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/103000d3-1685-471f-b069-43aa11e39ee4">
+Jika berhasil, maka Localtunnel akan meredirect kita menuju aplikasi Python yang berjalan. Ini menunjukan bahwa aplikasi Python sudah dapat diakses oleh publik.
+
+
