@@ -47,28 +47,15 @@ Rancangan Jaringan
 * DNS                 : 1.1.1.1, 1.0.0.1 (Cloudflare)
 * CIDR                : 192.168.1.0/24
 * Subnet 1            : 192.168.1.0
-  * IP Network        : 192.168.1.1
-  * Host pertama      : 192.168.1.2
-  * Host terakhir     : 192.168.1.62
-  * IP Broadcast      : 192.168.1.63
-* Subnet 2            : 192.168.1.64
-  * IP Network        : 192.168.1.65
-  * Host pertama      : 192.168.1.66
-  * Host terakhir     : 192.168.1.126
-  * IP Broadcast      : 192.168.1.127
-* Subnet 3            : 192.168.1.128
-  * IP Network        : 192.168.1.129
-  * Host pertama      : 192.168.1.130
-  * Host terakhir     : 192.168.1.191
-  * IP Broadcast      : 192.168.1.192
-* Subnet 4            : 192.168.1.192
-  * IP Network        : 192.168.1.193
-  * Host pertama      : 192.168.1.194
+  * IP Network        : 192.168.1.0
+  * Host pertama      : 192.168.1.1
   * Host terakhir     : 192.168.1.254
   * IP Broadcast      : 192.168.1.255
+
  
 ## 3. Gunakan app.diagrams.net untuk membuat diagramnya, Referensi gambar sudah disertakan
-![Diagram](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/008fa1a6-3a6f-4430-86c9-a9436d5f329d)
+![Diagram Final](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/5cc0edd7-d6b3-4b84-a90f-71d988acb7c5)
+
 
 
 
