@@ -54,7 +54,8 @@ Rancangan Jaringan
 
  
 ## 3. Gunakan app.diagrams.net untuk membuat diagramnya, Referensi gambar sudah disertakan
-![Diagram Final](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/5cc0edd7-d6b3-4b84-a90f-71d988acb7c5)
+![Diagram Final Banget](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/e81bb7ae-5a3c-494d-80c9-4aa518496d40)
+
 
 
 
