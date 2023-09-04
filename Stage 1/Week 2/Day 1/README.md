@@ -6,8 +6,6 @@ Distributed Version Control adalah jenis sistem manajemen versi yang digunakan u
 
 ## 2. Buat Repository dengan Nama Makanan Kesukaan Kalian (Diluar Tugas) yang Berisi 3 *File* dengan Isi yang Berbeda
 
-### Membuat Repository
-
 ### 2.1 Membuat Repository melalui Github.com
 <img width="1440" alt="Screenshot 2023-09-04 at 19 10 04" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d803b95b-0f5c-413a-b611-7a7afb846e81">
 
@@ -127,4 +125,4 @@ Pindah antar Branch dengan membawa perubahan yang terjadi pada Branch **Producti
 
 ```git
 git switch Staging
-```≈
+```
