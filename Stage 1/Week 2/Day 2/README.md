@@ -3,7 +3,7 @@
 ## 1. Penjelasan Text Manipulation beserta Step by Step
 ### 1.1 Cat
 #### 1.1.1
-<img width="1440" alt="1" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/e05f081a-3a7e-4385-9932-5fa8a6cc2632">
+<img width="1440" alt="1" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/7d181c55-060d-4e8e-8583-91fbb2d84ecb">
 Untuk membuat suatu file baru dengan langsung memasuk-kan teks tanpa perlu menggunakan text editor dapat menjalankan perintah:
 
 ```shell
@@ -13,7 +13,7 @@ cat > cat1.txt
 Lalu masuk-kan teks yang ingin disertakan pada file tersebut. Contoh 'Text Manipulation'. Setelah selesai tekan Control + D untuk menyimpan file
 
 #### 1.1.2
-<img width="1440" alt="2" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/aea32ef1-e57c-471d-9124-7431352ec2c6">
+<img width="1440" alt="2" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/45374b31-c898-47d6-85e0-e1e1a5c91ead">
 Untuk memindahkan isi dari file asal ke file tujuan dapat menjalankan perintah:
 
 ```shell
@@ -23,7 +23,7 @@ cat cat1.txt > cat2.txt
 Jika file tujuan tidak ditemukan, perintah ini akan membuat file dengan nama 'cat2.txt', Sedangkan jika file tujuan memiliki nama yang sama maka isi dari file sebelumnya akan ditimpa.
 
 #### 1.1.3
-<img width="1440" alt="3" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/b09a07fe-14dd-4f03-9f70-2ce8f8b83617">
+<img width="1440" alt="3" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/72083848-4de4-497a-92a5-87e2d4d29e2e">
 Untuk menambahkan isi pada file tersebut tanpa menimpa isi file dan menambahkannya pada garis baru dapat menjalankan perintah:
 
 ```shell
@@ -31,7 +31,7 @@ cat cat1.txt >> cat2.txt
 ```
 
 #### 1.1.4
-<img width="1440" alt="4" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/393c2a43-ba60-4d51-b3e6-d8d391bfd931">
+<img width="1440" alt="4" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/5c08ce4a-b4b8-4356-a824-02e0cd101522">
 Untuk menggabungkan beberapa file beserta isinya menjadi satu dapat menjalankan perintah:
 
 ```shell
@@ -40,7 +40,7 @@ cat cat1.txt cat2.txt > cat3.txt
 
 ### 1.2 Sed
 #### 1.2.1
-<img width="1440" alt="Screenshot 2023-09-06 at 00 56 51" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/e40ccb08-ec25-46b8-aed6-c22e2e0cb3b2">
+<img width="1440" alt="Screenshot 2023-09-06 at 00 56 51" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d54ce378-1d13-4d63-9371-22b2011474af">
 Untuk merubah kata <i>unix</i> menjadi <i>linux</i> pada suatu file dapat menjalankan perintah:
 
 ```shell
@@ -51,7 +51,7 @@ Di sini, argumen "-i" berfungsi mengubah berkas secara langsung. "s" menentukan 
 Secara default, perintah sed mengganti kemunculan pertama pola kata dalam setiap baris dan tidak akan mengganti kemunculan kata kedua, ketiga dst dalam baris tersebut.
 
 #### 1.2.2
-<img width="1440" alt="Screenshot 2023-09-06 at 00 58 10" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/fab2ee8f-b2cf-4399-ba1b-9682b34d6daa">
+<img width="1440" alt="Screenshot 2023-09-06 at 00 58 10" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d5e939e2-9801-455b-9d86-8cf3fbaf170f">
 Untuk merubah kata <i>unix</i> yang muncul pada sebuah pola dalam sebuah garis dapat menjalankan perintah:
 
 ```shell
@@ -61,7 +61,7 @@ sed -i 's/unix/chromeos/2' cat4.txt
 Gunakan /1, /2, dst untuk mengganti kata yang muncul berdasarkan urutan kata yang akan muncul dari sebuah pola.
 
 #### 1.2.3
-<img width="1440" alt="Screenshot 2023-09-06 at 00 59 19" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/2ee28abe-be12-4eea-8cc2-9be145fe0554">
+<img width="1440" alt="Screenshot 2023-09-06 at 00 59 19" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/9b31f3db-1e38-4017-b012-d7e6eae57e7e">
 Untuk merubah kata <i>linux</i> menjadi <i>centos</i> secara global pada suatu file dapat menjalankan perintah:
 
 ```shell
@@ -70,7 +70,7 @@ sed -i 's/linux/centos/g' cat4.txt
 
 ### 1.3 Grep
 #### 1.3.1
-<img width="1440" alt="Screenshot 2023-09-06 at 01 00 55" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/ae45e890-99b8-4526-9ad4-6d8337bbd044">
+<img width="1440" alt="Screenshot 2023-09-06 at 01 00 55" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/ec10db73-82a8-4190-a680-dae97122ad50">
 Untuk mencari kata <i>centos</i> pada suatu file dapat menjalankan perintah:
 
 ```shell
@@ -78,7 +78,7 @@ grep centos cat4.txt
 ```
 
 #### 1.3.2
-<img width="1440" alt="Screenshot 2023-09-06 at 01 01 37" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/cc75a0bf-c6a2-4354-8dfc-adc29bd26d36">
+<img width="1440" alt="Screenshot 2023-09-06 at 01 01 37" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/6ced32d9-c724-4e5b-a734-5fa5c37a791b">
 Untuk mencari kata <i>Manipulation</i> pada setiap file yang terdapat dalam direktori dapat menjalankan perintah:
 
 ```shell
@@ -87,7 +87,7 @@ grep Manipulation *
 
 ### 1.4 Sort
 #### 1.4.1
-<img width="1440" alt="Screenshot 2023-09-06 at 01 02 30" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/b82db513-2a0a-4809-bb42-7899f3b2f4cd">
+<img width="1440" alt="Screenshot 2023-09-06 at 01 02 30" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/fd7815f0-b0fc-4dd1-b89b-afec3d8614f3">
 Untuk mengurutkan setiap isi berdasarkan alfabet pertama pada tiap baris yang terdapat pada suatu file dapat menjalankan perintah:
 
 ```shell
@@ -95,7 +95,7 @@ sort cat4.txt
 ```
 
 #### 1.4.2
-<img width="1440" alt="Screenshot 2023-09-06 at 01 03 20" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/f1aa4fc8-7969-4ea3-8eb4-63316a6d4ec8">
+<img width="1440" alt="Screenshot 2023-09-06 at 01 03 20" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/bbd35db6-97b9-4e23-8c2a-44eae6410646">
 Untuk mengurutkan setiap isi berdasarkan alfabat pertama pada tiap baris yang terdapat pada suatu file secara berkebalikan dapat menjalankan perintah:
 
 ```shell
