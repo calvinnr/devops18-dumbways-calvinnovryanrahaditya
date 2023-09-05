@@ -14,3 +14,6 @@ Challenge 2 - Instalasi PM2 & Menjalankan aplikasi wayshub-frontend (NodeJS) & P
 ## [Week 2](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/tree/7527c54f64e59a88083d40a996f6538dff43e018/Stage%201/Week%202)
 ### [Day 1 (Version Control System)](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/blob/7527c54f64e59a88083d40a996f6538dff43e018/Stage%201/Week%202/Day%201/README.md)
 Task 1 - Menjelaskan Distributed Version Control, Membuat Repository, Membuat Branch serta Menjalankan 3 Command Git yang Belum Dipraktekkan
+### [Day 2 (Manage Server in Terminal)](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/blob/9dd7ad425a30d8d2f822a94981a82197944910bb/Stage%201/Week%202/Day%202/README.md)
+Task 2 - Menjelaskan Text Manipulation beserta Step by Step, Penjelasan tool HTOP serta membuat BASH Script
+#### [Day 2 - Challenge 1 - NodeJS BASH Script](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/blob/9dd7ad425a30d8d2f822a94981a82197944910bb/Stage%201/Week%202/Day%202/NodeJS_BASH_Script.md) 
