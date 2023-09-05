@@ -17,3 +17,4 @@ Task 1 - Menjelaskan Distributed Version Control, Membuat Repository, Membuat Br
 ### [Day 2 (Manage Server in Terminal)](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/blob/9dd7ad425a30d8d2f822a94981a82197944910bb/Stage%201/Week%202/Day%202/README.md)
 Task 2 - Menjelaskan Text Manipulation beserta Step by Step, Penjelasan tool HTOP serta membuat BASH Script
 #### [Day 2 - Challenge 1 - NodeJS BASH Script](https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/blob/9dd7ad425a30d8d2f822a94981a82197944910bb/Stage%201/Week%202/Day%202/NodeJS_BASH_Script.md) 
+Challenge 1 - Install NodeJS menggunakan BASH Script
